@@ -1,0 +1,49 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: blanchedalmond;
+}
+
+.header {
+    /* border: 4px solid red; */
+}
+
+.choiceField {
+    /* border: 4px solid red; */
+}
+
+.buttons {
+    /* border: 4px solid blue; */
+    display: flex;  
+    gap: 10px;
+    justify-content: center;
+}
+
+.computerField {
+    /* border: 4px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box {
+    border: 4px solid blue;
+    width: 100px;
+    height: 100px;
+
+}
+.results {
+    /* border: 4px solid red; */
+}
+
+p, h1 {
+    font-size: 45px;
+    color:sienna;
+    text-align: center;
+    /* border: 4px solid red; */
+
+}
+
+h1 {
+    font-size: 90px;
+}
