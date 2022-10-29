@@ -45,5 +45,10 @@ p, h1 {
 }
 
 h1 {
-    font-size: 90px;
+    font-size: 65px;
+}
+
+
+button {
+    background: url(imgs/icon.png)
 }
