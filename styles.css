@@ -20,18 +20,11 @@ body {
 }
 
 .computerField {
-    /* border: 4px solid red; */
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.box {
-    border: 4px solid blue;
-    width: 100px;
-    height: 100px;
-
-}
 .results {
     /* border: 4px solid red; */
 }
@@ -41,7 +34,6 @@ p, h1 {
     color:sienna;
     text-align: center;
     /* border: 4px solid red; */
-
 }
 
 h1 {
@@ -50,5 +42,13 @@ h1 {
 
 
 button {
-    background: url(imgs/icon.png)
+    display: flex;
+    align-items: center;
+}
+
+.final {
+    font-size: 45px;
+    color:sienna;
+    text-align: center;
+    /* border: 4px solid red; */
 }
